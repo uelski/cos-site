@@ -1,0 +1,41 @@
+.masthead-section {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+
+  @media(max-width: 767px) {
+    height: 50vh;
+  }
+
+  &__video {
+    @include cover-background;
+
+    @media(max-width: 767px) {
+      display: none;
+    }
+  }
+
+  &__mobile-image {
+    @include cover-background;
+    display: none;
+
+    @media (max-width: 767px) {
+      display: block;
+    }
+  }
+
+  &__text-content {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 48%);
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      color: white;
+    }
+
+    @media (max-width: 767px) {
+      padding: 50px 0;
+    }
+  }
+}
