@@ -1,0 +1,18 @@
+.bio-section {
+  background: #03020ab3;
+
+  &__container {
+
+    &--content-section {
+
+      @media(min-width:768px) {
+        padding-right: 35px;
+        max-width: 45%;
+      }
+
+      p {
+        color: white;
+      }
+    }
+  }
+}
