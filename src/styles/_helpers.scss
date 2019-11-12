@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,700&display=swap');
 
+.App {
+  background: white;
+}
+
 @mixin cover-background {
   position: absolute;
   padding: 0;
@@ -58,4 +62,10 @@ img {
       flex-direction: column;
     }
   }
+}
+
+a {
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-weight: bold;
 }
