@@ -25,13 +25,43 @@
   }
 
   &__text-content {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 48%);
-    padding: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: radial-gradient(rgba(0,0,0,.8) 30%,transparent 64%);
+
+    div {
+      text-align: center;
+      color: white;
+    }
 
     h1 {
       color: white;
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+      transition: all .3s ease-in;
+
+      svg {
+        fill: white;
+        margin-left: 8px;
+        transform: none;
+        transition: all .3s ease;
+      }
+
+      &:hover {
+        color: #b31e0e;
+        svg {
+          fill: #b31e0e;
+          transform: rotate(90deg);
+        }
+      }
     }
 
     @media (max-width: 767px) {

@@ -9,7 +9,29 @@
     &-content {
       h2 {
         font-family: 'lato';
-        font-size: 24px;
+        font-size: 28px;
+        span {
+          color: #b31e0e;
+        }
+      }
+    }
+  }
+  &__streaming {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 25px 100px;
+      li {
+        list-style: none;
+        width: calc(100% / 6);
+
+        .release-link {
+          display: block;
+          img {
+            width: 100%;
+          }
+        }
       }
     }
   }
