@@ -15,8 +15,10 @@
     }
 
     &.link-column {
-      padding-left: 50px;
-      width: 60%;
+      @media(min-width: 768px) {
+        padding-left: 50px;
+        width: 60%;
+      }
       ul {
         padding: 0 25px;
         display: flex;
@@ -41,6 +43,14 @@
 
             &:hover {
               color: #b31e0e;
+            }
+          }
+          @media(max-width: 767px) {
+            padding: 12px 0;
+            .footer-link {
+              img {
+                width: 28px;
+              }
             }
           }
         }

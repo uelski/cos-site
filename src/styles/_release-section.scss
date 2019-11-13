@@ -10,6 +10,9 @@
       h2 {
         font-family: 'lato';
         font-size: 28px;
+        @media(max-width: 767px) {
+          padding: 0 10px;
+        }
         span {
           color: #b31e0e;
         }
@@ -22,6 +25,10 @@
       align-items: center;
       justify-content: space-around;
       padding: 25px 100px;
+      @media(max-width: 767px) {
+        padding: 0;
+        flex-direction: column;
+      }
       li {
         list-style: none;
         width: calc(100% / 6);
@@ -30,6 +37,14 @@
           display: block;
           img {
             width: 100%;
+          }
+        }
+        @media(max-width: 767px) {
+          width: 75%;
+          max-width: 250px;
+          padding: 10px 0;
+          &:nth-child(3) {
+            padding-top: 30px;
           }
         }
       }

@@ -17,12 +17,12 @@ class ReleaseSection extends Component {
       },
       {
         src: spotifyLogo,
-        link: 'https://open.spotify.com/artist/3wwoB28lE8cNmZwvu3FmDQ',
+        link: 'https://open.spotify.com/album/30mWbUhm45XcC5gPe4lmYo',
         alt: 'Spotify Logo'
       },
       {
         src: appleLogo,
-        link: 'https://geo.music.apple.com/us/artist/mason-cos/1439087400?mt=1&app=music',
+        link: 'https://music.apple.com/us/album/codus-ep/1486667131',
         alt: 'Apple Music Logo'
       }
     ]
