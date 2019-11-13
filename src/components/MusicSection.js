@@ -6,7 +6,7 @@ class MusicSection extends Component {
   render() {
     const frameStyle = {
       border: '0',
-      width: '350px',
+      width: '300px',
       height: '470px'
     }
     return(

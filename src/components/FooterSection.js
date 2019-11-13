@@ -71,7 +71,7 @@ class FooterSection extends Component {
     return(
       <section className="footer-section">
         <div className="footer-section__container max-width-container section-padding">
-          <div className="footer-section__column image-column">
+          <div className="hide-mobile footer-section__column image-column">
             <img src={stickerImage} alt="Mason Cos sticker image"/>
           </div>
           <div className="footer-section__column link-column">
